@@ -51,11 +51,11 @@ A Flutter app that displays a digital clock, and checks when random numbers from
 
 **Dark Mode**: Assumed the color theme provided doesn't depend on device's Dark/Light mode.
 
-**Scalability**: Assumed tests, comprehensive debug logging and color themes are out of scope of this challenge.
+**Time difference accuracy**: Assumed time difference is trimmed to lower integer (not closest). Hence a difference of 29.998s will be shown as 29s instead of the more accurate 30s.
 
-**Time difference accuracy**: Assumed time difference is trimmed to lower integer (not closest). Hence difference shown can be e.g. 49s instead of the more accurate 50s.
+**Scalability**: Assumed further development such as model/widget tests, comprehensive debug logging for edge cases, color theme design etc would be out of scope of this challenge.
 
-
+**Tests**: This app was tested on Linux desktop and Android physical device. Assumed more tests would be out of scope of this challenge.
 
 ## Example screens
 ![Clock Screen](screenshots/clock.png)
